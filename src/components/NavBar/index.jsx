@@ -1,17 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import "./style.css"
 
 const NavBar = () => {
 
     return (
-        <nav>
-            <ul>
-                <li><Link to="/">Inicio</Link></li>
-                <li><Link to="/productos">Productos</Link></li>
-                <li><Link to="/nosotros">Nosotros</Link></li>
-                <li><Link to="/contacto">Contacto</Link></li>
+        <nav className="nav-container">
+            <ul className="nav-list">
+                <li><NavLink to="/">Inicio</NavLink></li>
+                <li><NavLink to="/productos">Productos</NavLink></li>
+                <li><NavLink to="/nosotros">Nosotros</NavLink></li>
+                <li><NavLink to="/contacto">Contacto</NavLink></li>
             </ul>
         </nav>
     )

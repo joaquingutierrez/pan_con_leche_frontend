@@ -1,2 +1,3 @@
 export { default as NavBar } from "./NavBar"
-export { default as ItemCard } from "./ItemCard"
+export { default as ItemList } from "./ItemList"
+export { default as ExploreMenu } from "./ExploreMenu"

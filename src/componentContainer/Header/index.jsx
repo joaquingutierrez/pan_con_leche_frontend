@@ -6,9 +6,10 @@ import { NavBar } from "../../components";
 const Header = () => {
 
     return (
-        <header>
-            Header
+        <header className="header">
+            <h2>LOGO</h2>
             <NavBar />
+            <h4>Iniciar sesion</h4>
         </header>
     )
 }
