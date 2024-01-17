@@ -1,3 +1,5 @@
 export { default as NavBar } from "./NavBar"
 export { default as ItemList } from "./ItemList"
 export { default as ExploreMenu } from "./ExploreMenu"
+export { default as SignIn } from "./SignIn"
+export { default as ItemDetail } from "./ItemDetail"
